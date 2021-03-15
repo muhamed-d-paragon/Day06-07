@@ -1,0 +1,48 @@
+h1{
+    color: coral;
+    text-align: center;
+}
+figure{
+    align-items: center;
+}
+figure
+img{
+    float:none;
+    width: 100%;
+    padding: 5px;
+    caption-side: bottom;
+    display: grid;
+}    
+h2{
+    flex: inherit;
+    color: darkgreen;
+    position:relative;
+    text-align: left;
+    z-index: inherit;
+    vertical-align: middle;
+}
+figcaption{
+    flex: inherit;
+    color: lightgreen;
+    position:relative;
+    text-align: justify;
+    z-index: inherit;
+}
+p{
+caption-side: bottom;
+}
+div{
+    display: block;
+    align-self: center;
+}
+.container {
+    align-self: center;
+    width: inherit;
+    display: flex;
+    margin: 10px;
+  }
+  .container .product {
+    margin: 10px; 
+    flex-wrap: wrap;
+    display: flex;
+  }
